@@ -1,5 +1,7 @@
+import React from "react";
+
 function Contact() {
-  return <h1 className="text-white flex">Contact</h1>;
+  return <div>Contact</div>;
 }
 
 export default Contact;
