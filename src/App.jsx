@@ -7,26 +7,31 @@ import Nav from "./components/Nav.jsx";
 import LoadingScreen from "./components/LoadingScreen.jsx";
 import { useState } from "react";
 import MobileMenu from "./components/MobileMenu.jsx";
+import Project from "./pages/Project.jsx";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <Router>
-      <div>
+      <>
         {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
         <div
           className={`min-h-screen transition-opacity duration-700 ${
             isLoaded ? "opacity-100" : "opacity-0"
           } bg-black text-gray-100`}
-        ></div>
-      </div>
-      <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <div></div>
+        >
+          <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+
+          <Routes>
+            <Route path={"/"} element={<Home />} />
+            <Route path={"/projects"} element={<Project />} />
+            <Route path={"/about"} element={<About />} />
+            <Route path={"/contact"} element={<Contact />} />
+          </Routes>
+        </div>
+      </>
     </Router>
   );
 }
