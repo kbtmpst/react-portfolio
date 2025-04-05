@@ -1,5 +1,4 @@
 import React from "react";
-import RevealOnScroll from "../components/RevealOnScroll";
 
 const About = () => {
   const techStacks = [

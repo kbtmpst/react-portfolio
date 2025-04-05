@@ -1,7 +1,5 @@
-import { section } from "framer-motion/client";
 import React from "react";
 import { Link } from "react-router-dom";
-import RevealOnScroll from "../components/RevealOnScroll";
 
 const Home = () => {
   return (
