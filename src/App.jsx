@@ -14,7 +14,7 @@ const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Router>
+    <Router basename="/react-portfolio/">
       <>
         {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
 
