@@ -11,7 +11,7 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <Link
             className="font-oswald text-xl font-bold text-white flex justify-between"
-            to={"/"}
+            to={"/react-portfolio/"}
           >
             <img src="./vite.svg" alt="Error" /> Keybi
             <span className="text-cyan-500">.Dev</span>
@@ -27,26 +27,26 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
-              to={"/"}
+              to={"/react-portfolio/"}
             >
               HOME
             </Link>
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
-              to={"/about"}
+              to={"/react-portfolio/about"}
             >
               ABOUT
             </Link>
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
-              to={"/projects"}
+              to={"/react-portfolio/projects"}
             >
               PROJECTS
             </Link>
 
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
-              to={"/contact"}
+              to={"/react-portfolio/contact"}
             >
               CONTACT
             </Link>
