@@ -14,6 +14,7 @@ const About = () => {
     "C++",
     "Node.js",
   ];
+
   return (
     <section className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-3xl mx-auto -my-4">
