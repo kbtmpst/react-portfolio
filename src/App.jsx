@@ -7,9 +7,9 @@ import Nav from "./components/Nav.jsx";
 import LoadingScreen from "./components/LoadingScreen.jsx";
 import { useState } from "react";
 import MobileMenu from "./components/MobileMenu.jsx";
-import Project from "./pages/Project.jsx";
+import Projects from "./pages/Projects.jsx";
 
-function App() {
+const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -26,7 +26,7 @@ function App() {
 
           <Routes>
             <Route path={"/"} element={<Home />} />
-            <Route path={"/projects"} element={<Project />} />
+            <Route path={"/projects"} element={<Projects />} />
             <Route path={"/about"} element={<About />} />
             <Route path={"/contact"} element={<Contact />} />
           </Routes>
@@ -34,6 +34,6 @@ function App() {
       </>
     </Router>
   );
-}
+};
 
 export default App;

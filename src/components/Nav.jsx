@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-function Nav({ menuOpen, setMenuOpen }) {
+const Nav = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
@@ -18,7 +18,7 @@ function Nav({ menuOpen, setMenuOpen }) {
           </Link>
 
           <div
-            className="w-7 h-5 relative cursor-ponter z-40 md:hidden"
+            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
           >
             &#9776;
@@ -54,6 +54,6 @@ function Nav({ menuOpen, setMenuOpen }) {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;

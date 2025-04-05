@@ -2,7 +2,7 @@ import { section } from "framer-motion/client";
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Home() {
+const Home = () => {
   return (
     <section
       id="home"
@@ -38,6 +38,6 @@ function Home() {
       </div>
     </section>
   );
-}
+};
 
 export default Home;
