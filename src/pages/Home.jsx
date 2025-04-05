@@ -1,6 +1,7 @@
 import { section } from "framer-motion/client";
 import React from "react";
 import { Link } from "react-router-dom";
+import RevealOnScroll from "../components/RevealOnScroll";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-500 to-green-600 bg-clip-text text-transparent leading-right">
           Hi, I'm Keybi Dev
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-md mx-auto">
+        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-md mx-auto ">
           Aspiring Frontend Developer and a student at Batangas State
           University, based in Batangas, Philippines
         </p>

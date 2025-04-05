@@ -1,4 +1,5 @@
 import React from "react";
+import RevealOnScroll from "../components/RevealOnScroll";
 
 const About = () => {
   const techStacks = [
@@ -22,7 +23,7 @@ const About = () => {
         </h2>
 
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-3 ">
-          <p className="text-gray-300 justify-text">
+          <p className="text-gray-300 text-justify space-grotesk-font text-md mb-4">
             Hello! I'm Carlo, a passionate web developer dedicated to crafting
             responsive, user-friendly, and impactful websites. I’m eager to
             explore the creative and technical aspects of web design,
@@ -30,7 +31,7 @@ const About = () => {
             My passion lies in crafting digital experiences that are not only
             engaging but also intuitive and accessible to all users. I look
             forward to learning, growing, and contributing to projects that make
-            a meaningful impact.
+            a meaningful impact {":]"}.
           </p>
           <div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -39,7 +40,7 @@ const About = () => {
                 {techStacks.map((skill, index) => (
                   <span
                     key={index}
-                    className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0,2px,8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0,2px,8px_rgba(59,130,246,0.2)] transition all"
                   >
                     {skill}
                   </span>
