@@ -27,10 +27,10 @@ const App = () => {
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
           <Routes>
-            <Route path={"/"} element={<Home />} />
-            <Route path={"/about"} element={<About />} />
-            <Route path={"/projects"} element={<Projects />} />
-            <Route path={"/contact"} element={<Contact />} />
+            <Route path={"/react-portfolio/"} element={<Home />} />
+            <Route path={"/react-portfolio/about"} element={<About />} />
+            <Route path={"/react-portfolio/projects"} element={<Projects />} />
+            <Route path={"/react-portfolio/contact"} element={<Contact />} />
           </Routes>
 
           <div className="flex flex-col items-center justify-center mt-10">
