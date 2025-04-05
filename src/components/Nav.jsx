@@ -33,16 +33,17 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
             </Link>
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
-              to={"/projects"}
-            >
-              PROJECTS
-            </Link>
-            <Link
-              className=" text-gray-300 hover:text-while transition-colors"
               to={"/about"}
             >
               ABOUT
             </Link>
+            <Link
+              className=" text-gray-300 hover:text-while transition-colors"
+              to={"/projects"}
+            >
+              PROJECTS
+            </Link>
+
             <Link
               className=" text-gray-300 hover:text-while transition-colors"
               to={"/contact"}

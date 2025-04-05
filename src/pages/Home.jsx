@@ -10,16 +10,11 @@ const Home = () => {
     >
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-500 to-green-600 bg-clip-text text-transparent leading-right">
-          Hi, Im Keybi Dev
+          Hi, I'm Keybi Dev
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Hello! I'm Carlo, a passionate web developer dedicated to crafting
-          responsive, user-friendly, and impactful websites. I’m eager to
-          explore the creative and technical aspects of web design, transforming
-          ideas into functional and visually appealing websites. My passion lies
-          in crafting digital experiences that are not only engaging but also
-          intuitive and accessible to all users. I look forward to learning,
-          growing, and contributing to projects that make a meaningful impact.
+        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-md mx-auto">
+          Aspiring Frontend Developer and a student at Batangas State
+          University, based in Batangas, Philippines
         </p>
         <div className="flex justify-center space-x-4">
           <Link
