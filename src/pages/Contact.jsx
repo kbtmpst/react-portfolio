@@ -22,9 +22,10 @@ const Contact = () => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() =>
-        alert("Oops! Something went wrong. Please try again later.")
-      );
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+        alert("Oops! Something went wrong. Please try again later.");
+      });
   };
 
   return (
@@ -50,13 +51,12 @@ const Contact = () => {
               }
               className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 test-while transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
               placeholder="Name"
-              o
             />
           </div>
 
           <div className="relative">
             <input
-              type="emial"
+              type="email"
               id="email"
               name="email"
               required
