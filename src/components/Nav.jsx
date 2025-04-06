@@ -10,11 +10,13 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link
-            className="font-oswald text-xl font-bold text-white flex justify-between"
+            className="font-oswald text-xl font-bold text-white flex justify-between items-center"
             to={"/"}
           >
-            <img src="./icons/react.svg" alt="Error" /> Keybi
-            <span className="text-cyan-500">.Dev</span>
+            <img src="./icons/xv.svg" alt="Error" className="w-15 h-15 " />
+            <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent">
+              Keybi Dev
+            </span>
           </Link>
 
           <div

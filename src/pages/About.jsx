@@ -16,11 +16,9 @@ const About = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center py-20">
+    <section className="min-h-screen w-full flex items-center justify-center py-20 relative">
       <div className="max-w-3xl mx-auto -my-4">
-        <h2 className="text-3xl font-bold mt-8 mb-8 bg-gradient-to-r from-cyan-600 to-green-400 bg-clip-text text-transparent text-center">
-          About Me
-        </h2>
+        <h2 className="text-3xl font-bold mt-8 mb-8  text-center">About Me</h2>
 
         <div className="rounded-xl p-8 border-white/10 border  mb-3 ">
           <p className="text-gray-300 text-justify space-grotesk-font text-md mb-4">

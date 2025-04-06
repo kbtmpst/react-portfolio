@@ -8,7 +8,7 @@ const Home = () => {
       className="min-h-screen w-full flex items-center justify-center relative"
     >
       <div className="text-center z-10 px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-500 to-green-600 bg-clip-text text-transparent leading-right">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent">
           Hi, I'm Keybi Dev
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-md mx-auto ">
@@ -18,7 +18,7 @@ const Home = () => {
         <div className="flex justify-center space-x-4">
           <Link
             to={"/projects"}
-            className="bg-cyan-500 text-white py-3 px-6 rounded font-mrdium transition relative overflow-hidden hover:-translate-y-1 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] group"
+            className="bg-purple-500/80 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-1 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] group"
           >
             View Projects
           </Link>

@@ -29,12 +29,9 @@ const Contact = () => {
   };
 
   return (
-    <section
-      id="contact"
-      className="min-h-screen flex items-centr justify-center py-20"
-    >
-      <div className="px-4 w-150">
-        <h2 className="text-3xl font-bold mt-8 mb-8 bg-gradient-to-r from-cyan-600 to-green-400 bg-clip-text text-transparent text-center">
+    <section id="contact" className="min-h-screen flex justify-center py-20">
+      <div className="px-4 w-150 ">
+        <h2 className="text-3xl font-bold mt-8 mb-8  text-center">
           Get In Touch
         </h2>
 
@@ -85,7 +82,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-cyan-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] "
+            className="w-full bg-purple-500/75 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-1 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] group"
           >
             Send Message
           </button>
