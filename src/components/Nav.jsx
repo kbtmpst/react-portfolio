@@ -13,7 +13,7 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
             className="font-oswald text-xl font-bold text-white flex justify-between"
             to={"/"}
           >
-            <img src="./vite.svg" alt="Error" /> Keybi
+            <img src="./icons/react.svg" alt="Error" /> Keybi
             <span className="text-cyan-500">.Dev</span>
           </Link>
 

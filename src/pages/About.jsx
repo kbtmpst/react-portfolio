@@ -1,18 +1,18 @@
 import React from "react";
 
 const About = () => {
-  const techStacks = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Tailwind CSS",
-    "C#",
-    "Java",
-    "MySQL",
-    ".NET",
-    "C++",
-    "Node.js",
+  const techStack = [
+    { name: "HTML", icon: "./icons/html.svg" },
+    { name: "CSS", icon: "./icons/css.svg" },
+    { name: "JavaScript", icon: "./icons/javascript.svg" },
+    { name: "React", icon: "./icons/react.svg" },
+    { name: "Tailwind CSS", icon: "./icons/tailwindcss.svg" },
+    { name: "Git", icon: "./icons/git.svg" },
+    { name: "GitHub", icon: "./icons/github.svg" },
+    { name: "C#", icon: "./icons/csharp.svg" },
+    { name: "Java", icon: "./icons/java.svg" },
+    { name: "MySQL", icon: "./icons/mysql.svg" },
+    { name: "C++", icon: "./icons/cpp.svg" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const About = () => {
           About Me
         </h2>
 
-        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-3 ">
+        <div className="rounded-xl p-8 border-white/10 border  mb-3 ">
           <p className="text-gray-300 text-justify space-grotesk-font text-md mb-4">
             Hello! I'm Carlo, a passionate web developer dedicated to crafting
             responsive, user-friendly, and impactful websites. I’m eager to
@@ -35,16 +35,17 @@ const About = () => {
           </p>
 
           <div>
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+            <div className="rounded-xl p-6 ">
               <h3 className="text-xl font-bold mb-4 text-center">Tech Stack</h3>
-              <div className="flex flex-wrap gap-2 mx-10 justify-center">
-                {techStacks.map((skill, index) => (
-                  <span
+              <div className="flex flex-wrap gap-4 mx-1 justify-center">
+                {techStack.map((tech, index) => (
+                  <div
                     key={index}
-                    className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0,2px,8px_rgba(59,130,246,0.2)] transition all"
+                    className="flex items-center gap-2 px-3 py-2 bg-zinc-900 border border-zinc-700 rounded-md shadow hover:scale-105 transition-transform"
                   >
-                    {skill}
-                  </span>
+                    <img src={tech.icon} alt={tech.name} className="w-5 h-5" />
+                    <span className="text-sm font-medium">{tech.name}</span>
+                  </div>
                 ))}
               </div>
             </div>

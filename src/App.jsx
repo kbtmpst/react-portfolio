@@ -37,8 +37,8 @@ const App = () => {
             <h3>Powered By</h3>
           </div>
           <div className="max-w-8  mx-auto  flex justify-center items-center pb-10 pt-3 gap-3">
-            <img src="react-2.svg" alt="react-logo" />
-            <img src="tailwindcss.svg" alt="tailwindcss-logo" />
+            <img src="./icons/react.svg" alt="react-logo" />
+            <img src="./icons/tailwindcss.svg" alt="tailwindcss-logo" />
           </div>
         </div>
       </>
