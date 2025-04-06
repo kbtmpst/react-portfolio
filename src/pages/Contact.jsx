@@ -36,6 +36,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mt-8 mb-8 bg-gradient-to-r from-cyan-600 to-green-400 bg-clip-text text-transparent text-center">
           Get In Touch
         </h2>
+
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div className="relative">
             <input

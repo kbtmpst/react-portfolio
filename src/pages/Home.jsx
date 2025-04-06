@@ -22,6 +22,7 @@ const Home = () => {
           >
             View Projects
           </Link>
+
           <Link
             to={"/contact"}
             className="border border-cyan-500/50 text-cyan-500 py-3 px-6 rounded font-medium transition-all  duration-200 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] hover:bg-cyan-500/25 group"
