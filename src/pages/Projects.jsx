@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="min-h-screen flex items-start justify-center py-20"
     >
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mt-8 mb-8 text-center">
           Featured Projects
         </h2>
