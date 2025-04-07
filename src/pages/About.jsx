@@ -88,6 +88,42 @@ const About = () => {
           </div>
           <div className="p-6 rounded-xl border-white/10 border hover:-transition-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4"> 💻 Hobbies</h3>
+            <ul>
+              <li>
+                <strong> Playing Online Games</strong>
+                <p className="space-grotesk-font text-sm mt-2 mb-4 text-gray-300">
+                  I am a gamer at heart. I love playing online games, especially
+                  mobile games. I enjoy playing games like Mobile Legends, Call
+                  of Duty Mobile, and Roblox with my friends. I play some online
+                  games to unwind and relax after a long day of studying and
+                  learning web development.
+                </p>
+                <strong>Watching Animes</strong>
+                <p className="space-grotesk-font text-sm mt-2 mb-4 text-gray-300">
+                  Watching anime became a part of my daily routine. I enjoy
+                  watching anime series and movies, and I love discussing them
+                  with my friends. Some of my favorite anime include That Time I
+                  Got Reincarnated as a Slime, Mushoku Tensei, One Piece, and
+                  Sword Art Online. I also like watching romance and
+                  slice-of-life anime. I find it relaxing and enjoyable to
+                  immerse myself in different worlds.
+                </p>
+                <strong>Coding</strong>
+                <p className="space-grotesk-font text-sm mt-2 mb-4 text-gray-300">
+                  I am currently learning web development. I am focusing on
+                  frontend development using HTML, CSS, JavaScript, and ReactJS.
+                  I am also learning how to use Tailwind CSS for styling my web
+                  applications. I enjoy coding and learning new technologies, I
+                  also want to dive into Next JS and NodeJS in the future as my
+                  skills advance.
+                </p>
+                <strong>Riding a Bicycle</strong>
+                <p className="space-grotesk-font text-sm mt-2 mb-4 text-gray-300">
+                  I used to regularly ride my bike around with my friends. We
+                  would ride our bikes to the mall, parks, and even to school.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
