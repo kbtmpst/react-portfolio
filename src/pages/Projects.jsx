@@ -59,6 +59,8 @@ const Projects = () => {
                 { name: "HTML", icon: "./icons/html.svg" },
                 { name: "CSS", icon: "./icons/css.svg" },
                 { name: "JavaScript", icon: "./icons/javascript.svg" },
+                { name: "React", icon: "./icons/react.svg" },
+                { name: "Tailwind CSS", icon: "./icons/tailwindcss.svg" },
               ].map((tech, index) => (
                 <div
                   key={index}
