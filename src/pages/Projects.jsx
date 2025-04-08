@@ -16,9 +16,9 @@ const Projects = () => {
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] transition-all">
             <h3 className="text-xl font-bold mb-4">First Web Portfolio</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
-              This is my first web portfolio, a non-responsive design as i just
-              started learning where i used javascript just for a particle
-              background. I created this portfolio as a school project.
+              This is my first web portfolio, a non-responsive and plain design
+              as i just started learning where i used javascript just for a
+              particle background. I created this portfolio as a school project.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {[
@@ -46,10 +46,13 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
-            <h3 className="text-xl font-bold mb-4">Project 2</h3>
+            <h3 className="text-xl font-bold mb-4">React Portfolio</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
-              Description of Project 2. This project highlights my ability to
-              create responsive and user-friendly interfaces.
+              This is my second portfolio where i used the things i have learned
+              from self studying. I really enjoyed making this portfolio using
+              React ,and Tailwind and i am proud of it. Also, in the future i
+              will be adding more projects to this portfolio as i learn more
+              about React.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {[
@@ -68,7 +71,7 @@ const Projects = () => {
             </div>
             <div>
               <Link
-                to={"/"}
+                to={"https://keybitempest.github.io/react-portfolio/"}
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
@@ -99,7 +102,7 @@ const Projects = () => {
             </div>
             <div>
               <Link
-                to={"/"}
+                to={""}
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
