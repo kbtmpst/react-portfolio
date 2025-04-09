@@ -10,7 +10,7 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link
-            className="font-oswald text-xl font-bold text-white flex justify-between items-center"
+            className="text-xl font-bold text-white flex justify-between items-center"
             to={"/"}
           >
             <img src="./icons/xv.svg" alt="Error" className="w-15 h-15 " />
