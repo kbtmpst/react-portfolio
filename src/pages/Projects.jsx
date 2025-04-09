@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
             <div>
               <Link
-                to={"https://keybitempest.github.io/react-portfolio/"}
+                to={"https://github.com/keybitempest/react-portfolio"}
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
