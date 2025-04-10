@@ -22,14 +22,25 @@ const About = () => {
 
         <div className="rounded-xl p-8 border-white/10 border  mb-3 ">
           <p className="text-gray-300 text-justify space-grotesk-font text-md mb-4">
-            Hello! I'm Carlo, a passionate web developer dedicated to crafting
-            responsive, user-friendly, and impactful websites. I’m eager to
-            explore the creative and technical aspects of web design,
-            transforming ideas into functional and visually appealing websites.
-            My passion lies in crafting digital experiences that are not only
-            engaging but also intuitive and accessible to all users. I look
-            forward to learning, growing, and contributing to projects that make
-            a meaningful impact {":]"}.
+            Hello! I'm{" "}
+            <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent font-bold">
+              Jhun Carlo Ramos
+            </span>
+            , you can call me{" "}
+            <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent font-bold">
+              Carlo
+            </span>{" "}
+            for short, also known as{" "}
+            <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent font-bold">
+              Keybi
+            </span>
+            , a passionate web developer dedicated to crafting responsive,
+            user-friendly, and impactful websites. Im eager to explore the
+            creative and technical aspects of web design, transforming ideas
+            into functional and visually appealing websites. My passion lies in
+            crafting digital experiences that are not only engaging but also
+            intuitive and accessible to all users. I look forward to learning,
+            growing, and contributing to projects that make a meaningful impact.
           </p>
 
           <div>
@@ -49,8 +60,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div className="p-6 rounded-xl border-white/10 border hover:-transition-y-1 transition-all">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-justify">
+          <div className="p-6 rounded-xl border-white/10 border hover:-transition-y-1 transition-all ">
             <h3 className="text-xl font-bold mb-4"> 🎓 Education</h3>
             <ul>
               <li>

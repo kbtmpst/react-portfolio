@@ -13,7 +13,7 @@ const Projects = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] transition-all">
             <h3 className="text-xl font-bold mb-4">First Web Portfolio</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               This is my first web portfolio, a non-responsive and plain design
@@ -45,7 +45,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
             <h3 className="text-xl font-bold mb-4">React Portfolio</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               This is my second portfolio where i used the things i have learned
@@ -81,7 +81,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
             <h3 className="text-xl font-bold mb-4">Project 3</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               Description of Project 3. This project highlights my ability to
@@ -112,7 +112,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
             <h3 className="text-xl font-bold mb-4">Project 4</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               Description of Project 4. This project highlights my ability to
