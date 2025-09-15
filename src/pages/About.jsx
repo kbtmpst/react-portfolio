@@ -34,13 +34,16 @@ const About = () => {
             <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent font-bold">
               Keybi
             </span>
-            , a passionate web developer dedicated to crafting responsive,
-            user-friendly, and impactful websites. Im eager to explore the
-            creative and technical aspects of web design, transforming ideas
-            into functional and visually appealing websites. My passion lies in
-            crafting digital experiences that are not only engaging but also
-            intuitive and accessible to all users. I look forward to learning,
-            growing, and contributing to projects that make a meaningful impact.
+            , from Simlong, Batangas City, Philippines. I'm a passionate web
+            developer dedicated to crafting responsive, user-friendly, and
+            impactful websites. Im eager to explore the creative and technical
+            aspects of web design, transforming ideas into functional and
+            visually appealing websites. My passion lies in crafting digital
+            experiences that are not only engaging but also intuitive and
+            accessible to all users. I look forward to learning, growing, and
+            contributing to projects that make a meaningful impact. Also, one
+            thing that helps me learn best in online class is an instructor who
+            is kind and patient enough to explain the lessons clearly.
           </p>
 
           <div>
@@ -60,6 +63,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-justify">
           <div className="p-6 rounded-xl border-white/10 border hover:-transition-y-1 transition-all ">
             <h3 className="text-xl font-bold mb-4"> 🎓 Education</h3>

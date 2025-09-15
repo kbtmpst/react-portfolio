@@ -38,6 +38,8 @@ const Projects = () => {
             <div>
               <Link
                 to={"https://github.com/keybitempest/keybi-portfolio"}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
@@ -74,6 +76,8 @@ const Projects = () => {
             <div>
               <Link
                 to={"https://github.com/keybitempest/react-portfolio"}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
@@ -82,7 +86,7 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
-            <h3 className="text-xl font-bold mb-4">Project 3</h3>
+            <h3 className="text-xl font-bold mb-4">Future Project</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               Description of Project 3. This project highlights my ability to
               create responsive and user-friendly interfaces.
@@ -105,6 +109,8 @@ const Projects = () => {
             <div>
               <Link
                 to={""}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
@@ -113,7 +119,7 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-gray-400/30 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)]transition-all">
-            <h3 className="text-xl font-bold mb-4">Project 4</h3>
+            <h3 className="text-xl font-bold mb-4">Future Project</h3>
             <p className="text-gray-300 text-justify space-grotesk-font text-sm mb-4">
               Description of Project 4. This project highlights my ability to
               create responsive and user-friendly interfaces.
@@ -136,6 +142,8 @@ const Projects = () => {
             <div>
               <Link
                 to={"/"}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition color my-4"
               >
                 View Project →
