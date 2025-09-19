@@ -14,7 +14,7 @@ const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Router basename="/react-portfolio/">
+    <Router basename={import.meta.env.BASE_URL}>
       <>
         {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
 
