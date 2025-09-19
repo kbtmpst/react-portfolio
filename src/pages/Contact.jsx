@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,9 +7,12 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const [isSending, setIsSending] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSending(true);
+
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -25,7 +27,8 @@ const Contact = () => {
       .catch((error) => {
         console.error("EmailJS Error:", error);
         alert("Oops! Something went wrong. Please try again later.");
-      });
+      })
+      .finally(() => setIsSending(false));
   };
 
   return (
@@ -33,8 +36,8 @@ const Contact = () => {
       id="contact"
       className="min-h-screen flex items-start justify-center py-20"
     >
-      <div className="px-4 w-150 ">
-        <h2 className="text-3xl font-bold mt-8 mb-8  text-center">
+      <div className="px-4 w-full max-w-lg">
+        <h2 className="text-3xl font-bold mt-8 mb-8 text-center">
           Get In Touch
         </h2>
 
@@ -49,7 +52,7 @@ const Contact = () => {
               onChange={(e) =>
                 setFormData({ ...formData, name: e.target.value })
               }
-              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 test-while transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
+              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
               placeholder="Name"
             />
           </div>
@@ -64,7 +67,7 @@ const Contact = () => {
               onChange={(e) =>
                 setFormData({ ...formData, email: e.target.value })
               }
-              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 test-while transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
+              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
               placeholder="example@gmail.com"
             />
           </div>
@@ -79,15 +82,17 @@ const Contact = () => {
                 setFormData({ ...formData, message: e.target.value })
               }
               rows={5}
-              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 test-while transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
+              className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-cyan-500 focus:bg-cyan-500/5"
               placeholder="Your message..."
             />
           </div>
+
           <button
             type="submit"
-            className="w-full bg-purple-500/75 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-1 hover:shadow-[0,0,15px_rgba(0, 180, 180, 1)] group"
+            disabled={isSending}
+            className="w-full bg-purple-500/75 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(0,180,180,1)] group disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Send Message
+            {isSending ? "Sending..." : "Send Message"}
           </button>
         </form>
       </div>
