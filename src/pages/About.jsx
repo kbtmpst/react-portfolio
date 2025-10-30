@@ -41,9 +41,7 @@ const About = () => {
             visually appealing websites. My passion lies in crafting digital
             experiences that are not only engaging but also intuitive and
             accessible to all users. I look forward to learning, growing, and
-            contributing to projects that make a meaningful impact. Also, one
-            thing that helps me learn best in online class is an instructor who
-            is kind and patient enough to explain the lessons clearly.
+            contributing to projects that make a meaningful impact.
           </p>
 
           <div>
